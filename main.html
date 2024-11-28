@@ -8,6 +8,29 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	 <h1 class="text-center">My<span style="color: blue;">Book</span>List</h1>
+
+    <div class="form-group">
+        <input type="text" id="title" class="form-control" placeholder="Title" required>
+        <input type="text" id="author" class="form-control mt-2" placeholder="Author" required>
+        <input type="text" id="isbn" class="form-control mt-2" placeholder="ISBN#" required>
+        <button id="submit" class="btn btn-primary mt-3">Add Book</button>
+    </div>
+
+    <table class="table table-striped mt-4">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>ISBN#</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="book-list">
+            <!-- New rows will be appended here -->
+        </tbody>
+    </table>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
